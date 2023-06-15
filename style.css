@@ -1,0 +1,129 @@
+body{
+    background-color: #E2F3F4;
+}
+a{
+    color:#B8E4ED; 
+    font-family: 'Montserrat', sans-serif; 
+    position: relative;
+    margin: 30px 120px;
+    text-decoration: none;
+    
+  }
+  a:hover{
+      color:#acacac;
+  }
+  h1{
+    font-size: 300%;
+    width:70%;
+    margin:50px auto 0 auto;
+    font-family: 'DM Sans', sans-serif;
+    color: #077F94;
+    line-height: 6;
+    letter-spacing: 6px
+}
+ h2{
+    font-size: 300%;
+    width:70%;
+    margin:100px auto 0 auto;
+    font-family: 'DM Sans', sans-serif;
+    color: #7C7A7B;
+    line-height: 6;
+    letter-spacing: 6px
+}
+hr{
+    border: dotted #cecbcb 6px;
+    border-bottom: none;
+    width: 7%;
+    margin:100px auto;
+
+}
+.month{
+    padding-top: 100px;
+    padding-left: 200px;
+    height: 700px;
+    width: 1150px; 
+}
+.cok{
+    padding-top: 120px;
+    padding-left: 170px;
+    height: 700px;
+    width: 1200px; 
+}
+
+.top-container{
+    background-color: #363334; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    
+}
+.mumbai{
+    height:200px;
+    width:1500px;
+}
+.man{
+    position: absolute; 
+    top: 355px;
+    left: 935px;
+}
+.logo{
+    position: absolute; 
+    top: 540px;
+    left: 80px;
+}
+.ser{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+.tex{
+    text-align-last:center;
+    font-family: 'DM Sans', sans-serif;
+    color: #077F94;
+    /* letter-spacing: 2px; */
+    font-size: 180%;  
+}
+td a:hover {
+    color: rgb(225, 225, 225);
+  }
+
+.dabba{
+    position: absolute; 
+    top: 2380px;
+    left: 480px;
+    height:200px;
+    width:200px;
+    border: 1px solid black;
+
+}
+.track{
+    top: 80px;
+    left: 700px;
+    color: #077e90f1;
+    font-size:30px ;
+}
+
+.mumbai2{
+    position: absolute;
+    top: 2650px;
+    left: 0;
+    right: 0;
+    height:200px;
+    width:1500px;
+}
+.bottom-container{
+    background-color: #363334; 
+    position: absolute;
+    top:2850px;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+}
+.aboutus{
+    padding-top: 100px;
+    padding-left: 215px;
+    height: 650px;
+    width: 1100px;  
+}

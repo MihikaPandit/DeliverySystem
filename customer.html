@@ -1,0 +1,75 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Dabbawala</title>
+</head>
+<body>
+   <div class="top-container">
+      <a class="header-link" href="aboutus.html">About Us</a>
+      <a class="header-link" href="index.html">Home</a> 
+      <a class="header-link" href="Homecook.html">Register as Home Cook</a>
+      <a class="header-link" href="customer.html">Register as Customer</a>
+   </div>
+   <div  class="split left">
+      <p>
+        CUSTOMER REGISTRATION
+      </p>
+   </div>
+
+  
+   <img src="Images\DabbawalaLogo.png" class="logo">
+   <div class="split right">
+      <form action="http://localhost/DBMS_Miniproject/Dabbawala/insertC.php" method="post">
+         <h3 align="center">REGISTER AS CUSTOMER</h3>
+         <div style=" justify-content: center; align-items: center; padding-left: 4rem;">
+         <input type="email" placeholder="Email" required name="Email">
+         <Input type="text" placeholder="Name" required name="Name">
+         <Input type="text" placeholder="Phone No." required name="PhoneNo" maxlength="10">
+         <Input type="text" placeholder="Street" required name="Address">  
+        <label for ="Area">Area</label>
+        <select id="Area" name="Area">
+            <option value ="Mulund West">Mulund West</option>
+            <option value ="Andheri">Andheri</option>
+            <option value ="Dombivli">Dombivli</option>
+            <option value ="Juhu">Juhu</option>
+            <option value ="Bandra">Bandra</option>
+            </select>
+            <Input type="text" placeholder="Number of days in a week " required name="Days">
+   
+            <table align="left"cellpadding="50"> 
+   
+               <fieldset>
+      
+                  <label for ="Subscription">Subscription</label>
+                  <select id="Subscription" name="Subscription">
+                      <option value ="Yearly">Yearly</option>
+                      <option value ="Monthly">Monthly</option>
+                      </select>
+      
+              </fieldset> 
+            <Input type="text" placeholder="Aadhar Number (Without Space) " required name="Aadhar" maxlength="12">
+            <label for ="Cuisine">Cuisine</label>
+               <label for ="Preference">Preference</label>
+               <select id="Preference" name="Preference">
+                  <option value ="Veg">Veg</option>
+                  <option value ="Non Veg">Non Veg</option>
+               </select>  
+        </table>
+         
+         
+         <div class="btn-box">
+            <button name="Send">Send</button>
+         </div>
+      </div>
+     </form>
+   </div>
+</body>
+</html>
