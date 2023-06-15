@@ -1,5 +1,10 @@
 # DeliverySystem
 
+Team Members : 
+Mihika Pandit , Aishwarya Patil , Janhavi Patil , Shardula Raghamwar
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 The Website is based on the Lunch Box Delivery System by the Mumbai Dabbawallas.
 
 The objective of this project is to develop a Database Management System for an online tiffin delivery service that can efficiently manage the homecook, tiffin, dabbawala and the customer information. 
