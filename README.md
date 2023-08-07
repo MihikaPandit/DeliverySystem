@@ -1,7 +1,7 @@
 # DeliverySystem
 
 Team Members : 
-Mihika Pandit , Aishwarya patil , Janhavi Patil , Shardula Raghamwar
+Mihika Pandit , Aishwarya Patil , Janhavi Patil , Shardula Raghamwar
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Documentation 
