@@ -16,4 +16,4 @@ It provides a user-friendly interface for customers to book the service and for 
 Additionally, the system also provides a feature for tracking your tiffin.
 The front-end is created using html. 
 The back-end uses Mysql. 
-php is used to connect the front-end with the back-end.
+PHP is used to connect the front-end with the back-end.
